@@ -1,11 +1,18 @@
+import {DiReact, DiNodejsSmall} from 'react-icons/di'
+
 function Skills(){
     return(
-        <div>
-            <h1>
-                Aqui ficará as Skills
-            </h1>
-        </div>
+        <section>
+            <h2>
+                Minhas Habilidades
+            </h2>
+         <div>
+            <DiReact size={70} />
+            <DiNodejsSmall size={70} />
+         </div>
+        </section>
+ 
     )
 }
 
-export default Skills
+export default Skills;
